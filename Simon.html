@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="Simon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="bungee-spice-regular">Simon Game</h1>
+    <h2 class="bungee-spice-regular">Press Play To Start The Game </h2>
+
+    <div class="box-container">
+            <span id="top"></span>
+            <span id="right"></span>
+            <span id="bottom"></span>
+            <span id="left"></span>
+
+        <div class="box-line-1">
+            <div class="box red" type = "button"></div>
+            <div class="box purple" type = "button"></div>
+        </div>
+        <div class="box-line-2">
+            <div class="box green" type = "button"></div>
+            <div class="box yellow" type = "button"></div>
+        </div>
+        <!-- Play Button  -->
+        <button type="button" class="btn-play">PLAY</button>
+    </div>
+
+    <script src="Simon.js"></script>
+</body>
+</html>
